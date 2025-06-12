@@ -1,2 +1,1 @@
-# aer-capstone-ekscluster
-aer-capstone-ekscluster
+# This is an eks project with eksctl and kubectl
