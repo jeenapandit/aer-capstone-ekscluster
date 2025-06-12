@@ -5,12 +5,3 @@ metadata:
   name: main
   labels:
     name: main
-    
----
-apiVersion: v1
-kind: Namespace
-apiVersion: v1
-metadata:
-  name: development
-  labels:
-    name: development
