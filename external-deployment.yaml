@@ -16,7 +16,7 @@ spec:
         app: events-external
     spec:
       containers:
-      - image: jeenapandit/external-api:v1.0
+      - image: jeenapandit/event-external:v2.0
         name: events-external
         imagePullPolicy: "Always"
         env:
