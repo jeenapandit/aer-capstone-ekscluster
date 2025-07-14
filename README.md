@@ -1,8 +1,8 @@
 # This is an EKS project that uses eksctl, kubectl and Jenkins
 
 Below docker images were used to the create the application and are in Docker Hub -
-- jeenapandit/external-api:v1.0
-- jeenapandit/internal-api:v1.0
+- jeenapandit/event-external:v2.0
+- jeenapandit/event-internal:v2.0
 
 The Docker images were built from below repos-
 - https://github.com/jeenapandit/aer-sample-external
