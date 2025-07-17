@@ -16,7 +16,7 @@ spec:
         app: events-internal
     spec:
       containers:
-      - image: jeenapandit/cicd-internal:base
+      - image: jeenapandit/event-internal:v2.0
         name: events-internal
         imagePullPolicy: "Always"
         resources:
