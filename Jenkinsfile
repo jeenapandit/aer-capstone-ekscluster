@@ -22,8 +22,8 @@ pipeline {
 					sh 'eksctl version'
 					sh 'ls -lrt'
 					echo 'Creating EKS Cluster'
-					sh 'eksctl create cluster -f cluster.yaml'
-					sh 'kubectl cluster-info'
+					//sh 'eksctl create cluster -f cluster.yaml'
+					//sh 'kubectl cluster-info'
 					}
 				}
 			}
