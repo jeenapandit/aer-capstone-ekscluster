@@ -5,7 +5,7 @@ metadata:
     app: events-external
   name: events-external
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels:
       app: events-external
